@@ -1,0 +1,429 @@
+
+.App{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.ContainApp{
+  background-color: orange;
+  height: 600px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.ContainApp1{
+  background-color: darkcyan;
+  height: 600px;
+  width: 100%;
+}
+.ContainApp2{
+  background-color: rgb(1, 49, 1);
+  height: 600px;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.Btn{
+  height: 52px;
+  width: 50%;
+  margin-left: 50px;
+  border-radius: 70px;
+  border: none;
+  color: orange;
+  font-size: 17px;
+  font-weight: bold;
+}
+.Btn1{
+  height: 52px;
+  width: 50%;
+  margin-left: 50px;
+  border-radius: 70px;
+  border: none;
+  font-size: 17px;
+  color: darkcyan;
+  font-weight: bold;
+}
+.Btn2{
+  height: 52px;
+  width: 50%;
+  margin-left: 50px;
+  border-radius: 70px;
+  border: none;
+  font-size: 17px;
+  color: rgb(1, 49, 1);
+  font-weight: bold;
+}
+.Luxury{
+  height: 400px;
+  padding: 50px;
+  /* max-width: 100%; */
+}
+.Luxury h1{
+  color: white;
+}
+.Luxury p{
+  color: rgb(231, 228, 228);
+  line-height: 27px;
+  margin-top: 17%;
+  font-size: 20px;
+  width: 20ch;
+}
+.Suv{
+  height: 400px;
+  padding: 50px;
+  /* max-width: 100%; */
+}
+.Suv h1{
+  color: white;
+}
+.Suv p{
+  color: rgb(231, 228, 228);
+  line-height: 27px;
+  margin-top: 17%;
+  font-size: 20px;
+  width: 20ch;
+  /* width: 100%; */
+}
+.Sedan{
+  height: 400px;
+  padding: 50px;
+  /* max-width: 100%; */
+}
+.Sedan h1{
+  color: white;
+}
+.Sedan p{
+  color: rgb(231, 228, 228);
+  line-height: 27px;
+  margin-top: 17%;
+  font-size: 20px;
+  width: 20ch;
+}
+*{
+  font-family: serif;
+}
+@media (max-width: 1100px) {
+  .Suv p{
+     width: 150px;
+     line-height: 25px;
+     font-size: 18px;
+  }
+  .Sedan p{
+    width: 150px;
+    line-height: 25px;
+    font-size: 18px;
+  }
+  .Luxury p{
+    width: 150px;
+    line-height: 25px;
+    font-size: 18px;
+  }
+  .ContainApp{
+    height: 550px;
+  }
+  .ContainApp1{
+    height: 550px;
+  }
+  .ContainApp2{
+    height: 550px;
+  }
+  .Luxury{
+    padding: 36px;
+    height: 380px;
+  }
+  .Btn2{
+    height: 45px;
+    width: 60%;
+    margin-left: 30px;
+    font-size: 17px;
+  }
+  .ContainApp2 .Luxury{
+    width: 190px;
+  }
+  .Sedan{
+    padding: 36px;
+    height: 380px;
+  }
+  .Btn{
+    height: 45px;
+    width: 60%;
+    margin-left: 30px;
+    font-size: 17px;
+  }
+  .ContainApp .Sedan{
+    width: 190px;
+  }
+  .Suv{
+    padding: 36px;
+    height: 380px;
+  }
+  .Btn1{
+    height: 45px;
+    width: 60%;
+    margin-left: 30px;
+    font-size: 17px;
+  }
+  .ContainApp1 .Suv{
+    width: 190px;
+  }
+}
+@media (max-width: 900px) {
+  .Suv p{
+     line-height: 22px;
+  }
+  .Sedan p{
+    line-height: 22px;
+  }
+  .Luxury p{
+    line-height: 22px;
+  }
+  .ContainApp{
+    height: 520px;
+  }
+  .ContainApp1{
+    height: 550px;
+    border-radius: 7px;
+  }
+  .ContainApp2{
+    height: 520px;
+  }
+  .Luxury{
+    height: 360px;
+  }
+  .ContainApp2 .Luxury{
+    width: 180px;
+  }
+  .Sedan{
+    height: 360px;
+  }
+  .ContainApp .Sedan{
+    width: 180px;
+  }
+  .Suv{
+    height: 380px;
+  }
+  .ContainApp1 .Suv{
+    width: 210px;
+  }
+  .Btn1{
+    margin-left: 12%;
+  }
+}
+@media (max-width: 800px) {
+  .Suv p{
+     line-height: 24px;
+     font-size: 15px;
+     width: 25ch;
+     
+  }
+  .Sedan p{
+    line-height: 24px;
+     font-size: 15px;
+     width: 20ch;
+  }
+  .Luxury p{
+    line-height: 24px;
+     font-size: 15px;
+     width: 20ch;
+  }
+  .ContainApp{
+    height: 480px;
+  }
+  .ContainApp1{
+    height: 520px;
+  }
+  .ContainApp2{
+    height: 480px;
+  }
+  .Luxury{
+    height: 330px;
+  }
+  .ContainApp2 .Luxury{
+    width: 160px;
+  }
+  .Sedan{
+    height: 330px;
+  }
+  .ContainApp .Sedan{
+    width: 160px;
+  }
+  .Suv{
+    height: 350px;
+  }
+  .ContainApp1 .Suv{
+    width: 180px;
+  }
+  .Btn1{
+    margin-left: 12%;
+  }
+}
+@media (max-width: 750px) {
+  .Suv{
+    padding: 20px;
+  }
+  .Luxury{
+    padding: 20px;
+  }
+  .Sedan{
+    padding: 20px;
+  }
+}
+@media (max-width: 650px) {
+  .Suv{
+    padding: 17px;
+  }
+  .Luxury{
+    padding: 17px;
+  }
+  .Sedan{
+    padding: 17px;
+  }
+}
+@media (max-width: 600px) {
+  .Suv{
+    padding: 20px;
+  }
+  .Luxury{
+    padding: 13px;
+  }
+  .Sedan{
+    padding: 13px;
+  }
+  .ContainApp .Sedan{
+    width: 150px;
+  }
+  .ContainApp1 .Suv{
+    width: 170px;
+  }
+  .ContainApp2 .Luxury{
+    width: 150px;
+  }
+}
+@media (max-width: 575px) {
+
+  .App{
+    display: flex;
+    flex-direction: column;
+    height: 1680px;
+    width: 90%;
+  }
+  .Sedan{
+    padding: 50px;
+    height: 240px;
+  }
+  .Sedan p{
+    width: 35ch;
+    font-size: 20px;
+  }
+  .Sedan h1{
+    font-size: 45px;
+  }
+  .Suv{
+    padding: 50px;
+    height: 270px;
+  }
+  .Suv p{
+    width: 35ch;
+    font-size: 20px;
+  }
+  .Suv h1{
+    font-size: 45px;
+  }
+  .Luxury{
+    padding: 50px;
+    height: 250px;
+  }
+  .Luxury p{
+    width: 35ch;
+    font-size: 20px;
+  }
+  .Luxury h1{
+    font-size: 45px;
+  }
+  .ContainApp{
+    height: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+  }
+  .ContainApp2{
+    height: 500px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 0px;
+  }
+  .ContainApp1{
+    border-radius: 0;
+  }
+}
+@media (max-width: 500px) {
+  .Sedan p{
+    width: 30ch;
+  }
+  .Suv p{
+    width: 30ch;
+  }
+  .Luxury p{
+    width: 30ch;
+  }
+  .Btn{
+    margin-left: 12%;
+  }
+  .Btn2{
+    margin-left: 12%;
+  }
+  .Luxury{
+    height: 260px;
+  }
+}
+@media (max-width: 450px) {
+  .Sedan p{
+    width: 24ch;
+  }
+  .Suv p{
+    width: 24ch;
+  }
+  .Luxury p{
+    width: 24ch;
+  }
+  .Sedan{
+    height: 250px;
+  }
+  .Luxury{
+    height: 270px;
+  }
+}
+@media (max-width: 400px) {
+  .Sedan{
+    padding: 40px;
+    height: 270px;
+  }
+  .Suv{
+    padding: 40px;
+  }
+  .Luxury{
+    padding: 40px;
+  }
+}
+@media (max-width: 375px) {
+  .Sedan p{
+    width: 20ch;
+  }
+  .Suv p{
+    width: 20ch;
+  }
+  .Luxury p{
+    width: 20ch;
+  }
+  .Sedan{
+    height: 300px;
+  }
+  .Suv{
+    height: 300px;
+  }
+  .Luxury{
+    height: 300px;
+  }
+}
